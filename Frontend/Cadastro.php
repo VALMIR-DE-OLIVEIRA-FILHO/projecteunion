@@ -6,10 +6,10 @@ include '../Backend/DatabaseConnection.php';
 
 
 
-<div class="container">
+<div class="cadastrocont">
 <form action="../backend/router.php" method="POST" class="cadastroForm">
     <input type="hidden" name="route" value="cadastro">
-    <div class="row">
+    <div class="row row1">
     <div class="col divcadastro1">
     <label for="nome">Nome:</label>
     <input type="text" class="form-control" name="nomecompleto" placeholder="insira o seu nome completo" >
